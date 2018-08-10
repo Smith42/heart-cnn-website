@@ -5,41 +5,56 @@
     font-weight: 400;
 }
 body{
-    background:#009688;
+    background:#373737;
     max-width:800px;
     margin:auto;
 }
 header{
     position:relative;
-    background: #373737;
+
+
 }
 header h1{
     text-align: center;
-    color:white;
-
+    color: #009688;
+    text-shadow:1px 1px 1px #0000000;
     font-size: 2.5em;
     padding:5vh 0 5vh 0;
+    border-bottom: 1px solid #009688;
 }
 nav ul{
-    text-align:center;
-    border-radius: 5px;
+    border-bottom: 1px solid #009688;
+
+    text-align: center;
     color:white;
     transition: .5s;
     font-size: 1.1em;
     width:100px;
     cursor: pointer;
     position:absolute;
-    right:0;
-    top:75%;
-    margin:.5em 0 0 0;
+    left:0;
+    bottom:0;
+
     list-style: none;
-    height:1.2em;
+    height:1.65em;
     overflow: hidden;
     background:#373737;
     padding: 0 10px 0 10px;
+
+}
+#menuButtonOn span:active{
+
+        top:10;
+
 }
 #menuButtonOff{
     display:none;
+}
+
+nav li{
+    margin-bottom:10px;
+    margin:auto;
+
 }
 nav a{
     text-decoration: none;

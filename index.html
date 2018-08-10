@@ -4,8 +4,11 @@
         <title>Heart-CNN demonstration website</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css"></link>
-        <script src="style.js"></script>
+        <link rel="stylesheet" href="Style/style.css"></link>
+        <link rel="stylesheet" href="Style/menu.css"></link>
+        <script src="Style/style.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
     </head>
 
     <body>
@@ -13,8 +16,17 @@
                 <h1>Heart-CNN demonstration website</h1>
             <nav>
                 <ul id = "menu">
-                    <li onclick="openMenu()" id="menuButtonOn">Menu</li>
-                    <li onclick="closeMenu()" id="menuButtonOff">menu</li>
+                    <li onclick="openMenu()" id="menuButtonOn">
+                        <span class="burger1"></span>
+                        <span class="burger2"></span>
+                        <span class="burger3"></span>
+                    </li>
+                    <li onclick="closeMenu()" id="menuButtonOff">
+                        <span class="burger1"></span>
+                        <span class="burger2"></span>
+                        <span class="burger3"></span>
+
+                    </li>
                     <li><a href="https://github.com/Smith42/heart-cnn/" class="w3-bar-item w3-button">GitHub</a></li>
                 </ul>
             </nav>
